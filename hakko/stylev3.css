@@ -9,7 +9,9 @@ body {
   margin: 0;
 }
 /*  <div class="">の""内で指定した名前に.を頭につけて使う（classの場合）*/
-
+.atama{
+  margin-top:30px;
+}
 .head {
   width: 270px;
   height: 45px;
