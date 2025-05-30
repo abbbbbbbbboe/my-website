@@ -1,17 +1,15 @@
 body {
   height: 100vh;
-  background-image: url(./bgv3_4.png);
+  background-image: url(https://cdn.glitch.global/7a008120-558d-41bd-b1ef-defc49792ce2/bgv3_4.png?v=1735721022295);
   background-repeat: repeat;
   background-size: 4px;
-  cursor: url(./cursor6.png), auto;
+  cursor: url(https://cdn.glitch.global/7a008120-558d-41bd-b1ef-defc49792ce2/cursor6.png?v=1735721151081), auto;
   width: auto;
   background-attachment: fixed;
   margin: 0;
 }
 /*  <div class="">の""内で指定した名前に.を頭につけて使う（classの場合）*/
-.atama{
-  margin-top:30px;
-}
+
 .head {
   width: 270px;
   height: 45px;
@@ -65,7 +63,7 @@ body {
   height: 8px;
   border: none;
   margin-left: 4px;
-  cursor: url(./link2.png),
+  cursor: url(https://cdn.glitch.global/7a008120-558d-41bd-b1ef-defc49792ce2/link2.png?v=1705997307235),
     auto;
   padding: 5px 10px;
   text-decoration: none;
@@ -76,7 +74,7 @@ body {
   height: 8px;
   border: none;
   margin-left: 4px;
-  cursor: url(./link1.png),
+  cursor: url(https://cdn.glitch.global/7a008120-558d-41bd-b1ef-defc49792ce2/link1.png?v=1705997175194),
     auto;
   padding: 5px 10px;
   text-decoration: none;
@@ -125,7 +123,7 @@ body {
 
   letter-spacing: 1px;
   line-height: 40px;
-  /* font-family: "Zen Kaku Gothic New", sans-serif; */
+/*   font-family: "Zen Kaku Gothic New", sans-serif; */
   font-family: "Open Sans", sans-serif;
   font-weight:bold;
 }
@@ -211,15 +209,15 @@ footer hr {
   }
 
   .text p {
-    color: cc6600;
+   color: #cc6600; /* ← 修正 */
     font-size: 16px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif; /* ← 追加 */
+    letter-spacing: 0.9px;
+    line-height: 33px;
     margin: 250px 21px 400px 21px;
     width: auto;
     height: auto;
-
-    letter-spacing: 0.9px;
-    line-height: 33px;
-    font-weight:500;
   }
 
   .text a {
@@ -228,7 +226,7 @@ footer hr {
 
     width: auto;
     height: auto;
-    font-family: "Open Sans", sans-serif;
+
     letter-spacing: 0.8px;
     line-height: 40px;
   }
@@ -241,7 +239,7 @@ footer hr {
 
     -webkit-text-decoration: underline dotted 2px #dd6d00;
     font-size: 18px;
-    /* font-family: "Zen Kaku Gothic New", sans-serif; */
+/*     font-family: "Zen Kaku Gothic New", sans-serif; */
     font-family: "Open Sans", sans-serif;
     font-weight: 300;
     background-color: white;
