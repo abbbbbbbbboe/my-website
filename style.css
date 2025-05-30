@@ -1,0 +1,163 @@
+::-moz-selection {
+  background-color: #2d5ae0;
+  color: #f0fcff;
+}
+
+::selection {
+  background-color: #2d5ae0;
+  color: #f0fcff;
+}
+
+
+body{
+    background-color:#f0fcff;
+    margin:0px;
+    font-family: "Noto Sans JP", "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  position: relative;
+
+}
+p{
+  font-size: 19px;
+}
+
+
+.top{
+    margin-top:10px;
+}
+.top a{
+  font-size: 25px;
+  text-decoration: none;
+}
+
+
+#title{
+  font-size: 25px;
+  color:#2d5ae0;
+  margin:0px 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0px;
+  text-decoration: none;
+
+}
+
+#works{
+  font-size: 25px;
+  color:#2d5ae0;
+  margin:0px 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+    text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0px;
+  text-decoration: none;
+}
+ 
+.main{
+    width: 800px;
+    margin:auto;
+    position: relative;
+}
+
+.main a{
+    font-size: 25px;
+    color:#2d5ae0;
+    text-decoration: none;
+}
+.main a:hover{
+  font-size: 35px;
+}
+.lightdaia{
+    /* margin-top:300px; */
+    
+}
+/* 動画の縦横比を維持 */
+
+  
+
+  hr{
+    border-top: 1px solid #2d5ae0;
+    width: 100%;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    margin:auto;
+    margin: 40px 0;
+
+  }
+  .osirase p{
+    color:#353535;
+  }
+  .newstop{
+    color:#2d5ae0;
+  }
+
+  .sns a{
+    font-size: 22px;
+    font-weight: 100;
+    color:#2d5ae0;
+  }
+
+  .sns a:hover{
+    font-size: 35px;
+    font-weight:  1000;
+    padding-bottom: 10px;
+    -webkit-text-stroke: 30px #2d5ae0;
+  }
+
+.sns p{
+  margin-right: 20px;
+}
+  
+
+  .hakkou{
+    display: block;
+  }
+  .email{
+    display: block;
+  }
+  .twitter{
+    display: block;
+  }
+  .instagram{
+    display: block;
+  }
+  a{
+    display: inline-block;
+  }
+  p{
+    display: inline-block;
+  }
+
+
+  @media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+
+    .main{
+        width: 90%;
+        margin:auto;
+    }
+    /* .top{
+        margin-top:5px;
+    } */
+    #title{
+        font-size: 20px;
+    }
+    #works{
+       font-size: 20px;
+    }
+
+  
